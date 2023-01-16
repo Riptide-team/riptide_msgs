@@ -1,0 +1,2 @@
+bool in_world_frame
+geometry_msgs/Vector3 vector

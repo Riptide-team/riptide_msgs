@@ -1,0 +1,9 @@
+uint8 DELETE=0
+uint8 DELETE_ALL=1
+uint8 ORTHOGONAL=2
+uint8 COLLINEAR=3
+uint8 type
+uint8 id
+float64 t
+FramedVector u
+FramedVector v

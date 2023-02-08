@@ -1,0 +1,5 @@
+float32 requested_depth
+---
+float32 depth
+---
+float32 error

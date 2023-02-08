@@ -13,6 +13,7 @@ find_package(rosidl_default_generators REQUIRED)
 set(msg_files
   "msg/FramedVector.msg"
   "msg/Constraint.msg"
+  "msg/Pressure.msg"
 )
 
 set(srv_files
@@ -20,9 +21,14 @@ set(srv_files
   "srv/ConstraintArray.srv"
 )
 
+set(action_files
+  "action/Depth.action"
+)
+
 rosidl_generate_interfaces(${PROJECT_NAME}
   ${msg_files}
   ${srv_files}
+  ${action_files}
   DEPENDENCIES geometry_msgs
 )
 

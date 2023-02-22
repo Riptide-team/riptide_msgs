@@ -14,6 +14,7 @@ set(msg_files
   "msg/FramedVector.msg"
   "msg/Constraint.msg"
   "msg/Pressure.msg"
+  "msg/Actuators.msg"
 )
 
 set(srv_files

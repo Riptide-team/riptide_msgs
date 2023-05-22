@@ -15,6 +15,7 @@ set(msg_files
   "msg/Constraint.msg"
   "msg/Pressure.msg"
   "msg/Actuators.msg"
+  "msg/Multiplexer.msg"
 )
 
 set(srv_files

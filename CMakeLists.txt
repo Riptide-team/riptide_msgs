@@ -25,6 +25,7 @@ set(srv_files
 
 set(action_files
   "action/Depth.action"
+  "action/FullDepth.action"
   "action/Immerse.action"
 )
 

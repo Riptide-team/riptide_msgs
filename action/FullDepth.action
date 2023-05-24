@@ -1,0 +1,14 @@
+float32 duration
+float32 depth
+float32 velocity
+float32 yaw
+float32 roll
+---
+float32 final_duration
+float32 final_depth
+---
+float32 remaining_time
+float32 depth_error
+float32 yaw_error
+float32 pitch_error
+float32 roll_error

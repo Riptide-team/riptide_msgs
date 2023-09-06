@@ -11,6 +11,9 @@ find_package(geometry_msgs REQUIRED)
 find_package(rosidl_default_generators REQUIRED)
 
 set(msg_files
+  "msg/ImmersionControllerState.msg"
+  "msg/RiptideControllerState.msg"
+  "msg/LogControllerState.msg"
   "msg/FramedVector.msg"
   "msg/Constraint.msg"
   "msg/Pressure.msg"
@@ -27,6 +30,7 @@ set(action_files
   "action/Depth.action"
   "action/FullDepth.action"
   "action/Immerse.action"
+  "action/Immersea.action"
 )
 
 rosidl_generate_interfaces(${PROJECT_NAME}

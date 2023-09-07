@@ -12,4 +12,5 @@ geometry_msgs/Quaternion error
 float64 angular_error
 
 # Output
+float64 velocity
 geometry_msgs/Vector3 output

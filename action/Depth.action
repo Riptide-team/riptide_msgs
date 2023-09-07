@@ -1,8 +1,8 @@
-float32 requested_depth
-float32 duration
----
+builtin_interfaces/Duration timeout
 float32 depth
-float32 elapsed_time
 ---
+builtin_interfaces/Duration duration
+float32 depth
+---
+builtin_interfaces/Duration remaining_time
 float32 depth_error
-float32 elapsed_time

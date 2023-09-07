@@ -1,6 +1,9 @@
 # Header for timestamp
 std_msgs/Header header
 
+# Duration
+builtin_interfaces/Duration duration
+
 # Reference
 float64 reference_depth
 

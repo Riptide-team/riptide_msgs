@@ -1,4 +1,4 @@
 ---
-float64 final_duration
+builtin_interfaces/Duration final_duration
 ---
-float32 remaining_time
+builtin_interfaces/Duration remaining_time

@@ -2,4 +2,6 @@
 std_msgs/Header header
 
 # Output
-float64 remaining_time
+builtin_interfaces/Duration remaining_time
+float64 thruster_velocity
+geometry_msgs/Vector3 fin_angles

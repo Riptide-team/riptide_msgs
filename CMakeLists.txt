@@ -16,6 +16,7 @@ set(msg_files
   "msg/ImmersionControllerState.msg"
   "msg/RiptideControllerState.msg"
   "msg/LogControllerState.msg"
+  "msg/DolphinControllerState.msg"
   "msg/FramedVector.msg"
   "msg/Constraint.msg"
   "msg/Pressure.msg"
